@@ -27,6 +27,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    	<distributionManagement>
+    <repository>
+        <id>deploymentrepo</id>
+        <name>1.O-SNAPSHOT</name>
+        <url>http://13.232.66.199:8081/nexus/content/repositories/snapshots/</url>
+    </repository>
+  </distributionManagement>
+
 
   <build>
     <finalName>webapp</finalName>
